@@ -3,9 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="MyCss.css">
-  
   <title>Front End Quiz 1</title>
+  <link rel="stylesheet" href="MyCss.css">
 </head>
 <body>
 
@@ -13,28 +12,40 @@
     <h1>Front End Quiz 1</h1>
   </header>
 
-  <nav>
-    <h2>Left Page</h2>
-    <a href="https://www.google.com" target="_blank">Page 1</a>
-    <a href="https://www.google.com" target="_blank">Page 2</a>
-    <a href="https://www.google.com" target="_blank">Page 3</a>
-    <a href="https://www.google.com" target="_blank">Page 4</a>
-  </nav>
+  <section>
+    <div class="content-column left-column">
+      <h2>Left Page</h2>
+      <p>
+        <div class="linked-box">
+          <a href="https://www.google.com" target="_blank">Page 1</a>
+        </div>
+        <div class="linked-box">
+          <a href="https://www.google.com" target="_blank">Page 2</a>
+        </div>
+        <div class="linked-box">
+          <a href="https://www.google.com" target="_blank">Page 3</a>
+        </div>
+        <div class="linked-box">
+          <a href="https://www.google.com" target="_blank">Page 4</a>
+        </div>
+      </p>
+    </div>
 
-  <div class="main-content">
-    <h1>Body Page</h1>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam facere sed dicta officiis iste suscipit voluptate nihil labore odio quasi sequi, deleniti, tempore nam, expedita consequatur. Suscipit cumque voluptatibus voluptas?</p>
-  </div>
+    <div class="content-column center-column">
+      <h2>Body Page</h2>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam facere sed dicta officiis iste suscipit voluptate nihil labore odio quasi sequi, deleniti, tempore nam, expedita consequatur. Suscipit cumque voluptatibus voluptas?</p>
+    </div>
 
-  <div class="right-panel">
-    <h2>Right Page</h2>
-    <a href="Resource/octopus.jpg">
-      <img src="Resource/octopus.jpg" alt="Octopus Image">
+    <div class="content-column right-column">
+      <h2>Right Page</h2>
+    <a href="Resource/AM1.jpg">
+      <img src="Resource/AM1.jpg" alt="AM1">
     </a>
-  </div>
+    </div>
+  </section>
 
   <footer>
-    Footer
+    <p>Footer</p>
   </footer>
 
 </body>
