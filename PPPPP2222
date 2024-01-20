@@ -1,0 +1,10 @@
+<template>
+  <div>test</div>
+</template>
+
+<style>
+    body {
+      font-family: 'Itim', cursive;
+      font-size: 100px;
+    }
+</style>
