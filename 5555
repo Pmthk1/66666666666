@@ -1,0 +1,35 @@
+export default defineNuxtConfig({
+  app:{
+  head: {
+    meta: [
+      {
+        hid: "viewport",
+        name: "viewport",
+        content: "width=device-width, initial-scale=1"
+      },
+      {
+        hid: "charset",
+        charset: "utf-8"
+      }
+    ],
+    link: [
+      {
+        rel: "preconnect",
+        href: "https://fonts.googleapis.com"
+      },
+      {
+        rel: "preconnect",
+        href: "https://fonts.gstatic.com",
+      },
+      {
+        rel: "stylesheet",
+        href: "https://fonts.googleapis.com/css2?family=Pridi&display=swap"
+      }
+    ],
+    style: [],
+    script: [],
+    noscript: []
+  },
+},
+    devtools: { enabled: true }
+})
