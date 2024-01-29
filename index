@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    table,
+    th,
+    td{
+        border: 1px solid black;
+    }
+</style>
+
+<body onload="getData()">
+    <table style="width:100%" id="Table">
+        <tr style="background-color: lightblue;">
+            <th>Product Name</th>
+            <th>Product Detail</th>
+        </tr>
+    </table>
+    <script src="API.js"></script>
+    
+</body>
+</html>
