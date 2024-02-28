@@ -1,0 +1,35 @@
+.title {
+    display: flex;
+    font-size: 30px;
+    font-weight: 900;
+    color: #000000;
+}
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-top: 50px;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 900;
+    color: #000000;
+    padding: 10px;
+    border-radius: 10px;
+}
+.yellow {
+    background: #FCF6C5;
+}
+.green {
+    background: #98E6B2;
+}
+
+.line {
+    position: absolute;
+    margin-top: 100px;
+    width: 14900px;
+    border: 1px solid #BCADAD;
+}
