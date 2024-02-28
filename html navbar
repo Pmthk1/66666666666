@@ -1,8 +1,0 @@
-<div class="title">ชั้นหนังสือของฉัน</div>
-    <div class="buttons">
-        <div class="button yellow">ดูล่าสุด</div>
-        <div class="button green">ชั้นหนังสือ</div>
-        <div class="button green">ติดตาม</div>
-        <div class="button green">ลิสต์</div>
-        <div class="line"></div>
-    </div>
