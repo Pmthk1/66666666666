@@ -1,0 +1,239 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 10px;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgb(111, 110, 110);
+}
+
+header .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+header .spacer {
+    flex-grow: 0.07;
+}
+
+.triangle {
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 15px solid black;
+}
+
+header .icons img {
+    width: 30px;
+}
+
+header .icons {
+    display: flex;
+    gap: 45px;
+}
+
+header h1 {
+    font-size: 23px;
+    flex-grow: 0.03;
+}
+
+
+.title {
+    display: flex;
+    font-size: 30px;
+    font-weight: 900;
+    color: #000000;
+}
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-top: 50px;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 900;
+    color: #000000;
+    padding: 10px;
+    border-radius: 10px;
+}
+.yellow {
+    background: #FCF6C5;
+}
+.green {
+    background: #98E6B2;
+}
+
+.line {
+    position: absolute;
+    margin-top: 100px;
+    width: 100%;
+    border: 1px solid #BCADAD;
+}
+
+.pagination-1 {                                       
+    align-items: center; 
+    top: auto;
+    bottom: 0;
+    right: 0;
+    margin-left: 900px;
+    margin-top: 90px;
+}
+
+.page-button {
+    width: 38px;
+    height: 38px;
+    border-radius: 10px; 
+}
+  
+.prev {
+      border:2px solid #D9D9D9; 
+      color:#c0bbbb; 
+}
+  
+.next {
+      border:2px solid #000000; 
+      color:#000000;
+}
+
+.page-number {
+      font-family:'JejuGothic'; 
+      font-size: 28px; 
+}
+
+.card {
+    position: relative;
+    width: 606px;
+    height: 209px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#card1 {
+    top: 20px;
+    left: -500px;
+}
+
+#card2 {
+    top: -190px;
+    right: -100px;
+}
+
+#card3 {
+    bottom: 10px;
+    left: -500px;
+}
+
+#card4 {
+    bottom: 200px;
+    right: -600px;
+}
+
+#card5 {
+    top: 250px;
+    left: -600px;
+}
+
+#card6 {
+    top: -200px;
+    right: -600px;
+}
+
+#card7 {
+    bottom: -250px;
+    left: -600px;
+}
+
+#card8 {
+    bottom: -10px;
+    right: -600px;
+    top: -100px;
+}
+
+#card9 {
+    top: 250px;
+    left: -600px;
+}
+
+#card10 {
+    top: -80px;
+    right: -600px;
+}
+
+
+.card img {
+    width: 30%;
+    height: auto;
+}
+
+.text {
+    left: 55%;
+    margin-left: 67%;
+    margin-top: -30%;
+    width: 55%;
+}
+
+.text p {
+    font-size: 19px;
+    line-height: 31px;
+    color: #000000;
+    margin: 0;
+}
+
+.text span {
+    font-size: 15px;
+    line-height: 1;
+    color: #F47575;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    gap: 10px;
+    width: 185px;
+    height: 38px;
+    position: absolute;
+    left: 628px;
+    bottom: 20px;
+}
+
+.pagination-2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    top: auto;
+    margin-top: 350px;
+    margin-left: -500px;
+}
+
+.prev {
+    border:2px solid #D9D9D9; 
+    color:#c0bbbb; 
+}
+
+.next {
+    border:2px solid #000000; 
+    color:#000000;
+}
+
+.page-number {
+    font-family: 'JejuGothic';
+    font-size: 28px;
+}
